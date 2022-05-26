@@ -8,6 +8,8 @@ import AboutPage from "../AboutPage/AboutPage";
 import GalleryPage from "../GalleryPage/GalleryPage";
 import ContactPage from "../ContactPage/ContactPage";
 
+import { Button } from "react-bootstrap";
+
 const HomePage = () => {
   const [aboutDiv, setAboutScrollDiv] = useState();
   const [contactDiv, setContactScrollDiv] = useState();
@@ -53,34 +55,36 @@ const HomePage = () => {
                 <div
                   className="landing-container w-75 p-4 mt-4"
                   style={{
-                    background: "black",
+                    background: "skyblue",
                     opacity: "0.8",
                     borderRadius: "5px",
+                    height: "400px",
                   }}
                 >
                   <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h2 style={{ color: "white", textTransform: "uppercase" }}>
+                    <h2 style={{ color: "red", textTransform: "uppercase" }}>
                       Full Service
                     </h2>
                     <h3
-                      style={{ color: "#9BCE1A", textTransform: "uppercase" }}
+                      style={{ color: "#F03191", textTransform: "uppercase" }}
                     >
                       Maxxed Out Styling
                     </h3>
-                    <p className="py-3 text-white">
+                    <p
+                      className="py-3"
+                      style={{ color: "#F03191", fontSize: "24px" }}
+                    >
                       We provide professional services ranging from hair
                       styling, coloring, nail care, texturing and waxing.
                     </p>
-                    <p>
-                      <a
-                        href="#services"
-                        className="btn btn-primary btn-large"
-                        style={{ background: "#9BCE1A", border: "none" }}
-                        onClick={() => servicesClick(servicesDiv)}
-                      >
-                        What we offer »
-                      </a>
-                    </p>
+                    <Button
+                      href="#services"
+                      size="lg"
+                      style={{ background: "#F03191", border: "none" }}
+                      onClick={() => servicesClick(servicesDiv)}
+                    >
+                      What we offer »
+                    </Button>
                   </div>
                 </div>
               </div>

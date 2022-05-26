@@ -81,7 +81,7 @@ h1.border-title.aligncenter {
 
 .contact-info {
   margin: 20px 0;
-  background: #92c219;
+  background: rgb(81, 81, 168);
   width: 300px;
   padding: 10px;
   border-radius: 20px;
@@ -98,7 +98,7 @@ h1.border-title.aligncenter {
 }
 
 .contact-info:hover {
-  border: 2px solid #db0159;
+  border: 2px solid blue;
   cursor: pointer;
 }
 
