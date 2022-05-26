@@ -30,7 +30,7 @@ const Header = (props) => {
             <Navbar.Brand
               href="/"
               style={{
-                color: "#DB0159",
+                color: "#fff",
                 fontFamily: "Pacifico",
                 fontSize: "24px",
               }}
@@ -74,7 +74,11 @@ const Header = (props) => {
                 >
                   <i className="fab fa-facebook fa-2x" />
                 </Nav.Link>
-                <Nav.Link href="/" target="_blank" rel="noopener noreferrer">
+                <Nav.Link
+                  href="https://www.yelp.com/biz/salon-maxx-citrus-heights-3"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i className="fab fa-yelp fa-2x" />
                 </Nav.Link>
               </Nav>

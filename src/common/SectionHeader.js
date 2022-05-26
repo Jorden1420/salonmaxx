@@ -5,7 +5,7 @@ const SectionHeader = (props) => {
   return (
     <div className="section-header-container my-3 text-center">
       <div className="section-header">
-        <h1 className="border-title aligncenter" style={{ color: "#DB0159" }}>
+        <h1 className="border-title aligncenter" style={{ color: "#9BCE1A" }}>
           {header}
         </h1>
       </div>

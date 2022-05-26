@@ -19,13 +19,13 @@ const ContactPage = (props) => {
       <div className="fluid-container">
         <div
           className="contact-container"
-          style={{ backgroundColor: "#611144" }}
+          style={{ backgroundColor: "#9BCE1A" }}
         >
           <div className="container">
             <div className="row">
               <div className="col-lg-3 m-3">
                 <div className="background-change p-3">
-                  <h3 style={{ color: "#DB0159" }}>Contact Information</h3>
+                  <h3 style={{ color: "#627532" }}>Contact Information</h3>
                   <p className="pt-2 text-white">
                     Have a question? Feel free to contact us anytime and we'll
                     be happy to assist you.
@@ -34,7 +34,7 @@ const ContactPage = (props) => {
                     <div className="contact-info">
                       <a href="tel:9167250423">
                         <span>
-                          <PhoneIcon style={{ color: "#DB0159" }} />{" "}
+                          <PhoneIcon style={{ color: "#627532" }} />{" "}
                           <span style={{ color: "#fff" }}>(916) 725-0423</span>
                         </span>
                       </a>
@@ -42,7 +42,7 @@ const ContactPage = (props) => {
                     <div className="contact-info">
                       <a href="mailto:test@test.com">
                         <span>
-                          <EmailIcon style={{ color: "#DB0159" }} />{" "}
+                          <EmailIcon style={{ color: "#627532" }} />{" "}
                           <span style={{ color: "#fff" }}>test@test.com</span>
                         </span>
                       </a>
@@ -54,7 +54,7 @@ const ContactPage = (props) => {
                         rel="noopener noreferrer"
                       >
                         <span>
-                          <MapIcon style={{ color: "#DB0159" }} />{" "}
+                          <MapIcon style={{ color: "#627532" }} />{" "}
                           <span style={{ color: "#fff" }}>
                             7821 Lichen Dr Citrus Heights, CA 95621
                           </span>
@@ -66,11 +66,11 @@ const ContactPage = (props) => {
               </div>
               <div className="col-lg-3 m-3">
                 <div className="background-change p-3">
-                  <h3 style={{ color: "#DB0159" }}>Business Hours</h3>
+                  <h3 style={{ color: "#627532" }}>Business Hours</h3>
                   <p className="pt-2 text-white">Monday - Friday 9AM - 7PM</p>
                   <p className="pt-2 text-white">Closed Monday and Sunday</p>
                   <div className="social-media-container pt-3">
-                    <h3 style={{ color: "#DB0159" }}>Social Media</h3>{" "}
+                    <h3 style={{ color: "#627532" }}>Social Media</h3>{" "}
                     <div className="contact-social-media">
                       <a
                         href="https://www.facebook.com/SalonMaxx"
@@ -82,7 +82,7 @@ const ContactPage = (props) => {
                         <i className="fab fa-facebook fa-3x" />
                       </a>
                       <a
-                        href="https://www.yelp.com/biz/super-wash-n-dry-sacramento"
+                        href="https://www.yelp.com/biz/salon-maxx-citrus-heights-3"
                         target="_blank"
                         rel="noopener noreferrer"
                         title="Salon Maxx Yelp"

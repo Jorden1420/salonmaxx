@@ -63,7 +63,7 @@ const HomePage = () => {
                       Full Service
                     </h2>
                     <h3
-                      style={{ color: "#DB0159", textTransform: "uppercase" }}
+                      style={{ color: "#9BCE1A", textTransform: "uppercase" }}
                     >
                       Maxxed Out Styling
                     </h3>
@@ -75,7 +75,7 @@ const HomePage = () => {
                       <a
                         href="#services"
                         className="btn btn-primary btn-large"
-                        style={{ background: "#DB0159", border: "none" }}
+                        style={{ background: "#9BCE1A", border: "none" }}
                         onClick={() => servicesClick(servicesDiv)}
                       >
                         What we offer »

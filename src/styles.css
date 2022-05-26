@@ -52,11 +52,11 @@ span.navbar-toggler-icon {
 
 header,
 footer {
-  background-color: #691f3d;
+  background-color: #9bce1a;
 }
 
 header h1 {
-  color: #ec4789;
+  color: #9bce1a;
 }
 
 .navbar-light .navbar-nav .nav-link,
@@ -81,7 +81,7 @@ h1.border-title.aligncenter {
 
 .contact-info {
   margin: 20px 0;
-  background: #691f3d;
+  background: #92c219;
   width: 300px;
   padding: 10px;
   border-radius: 20px;

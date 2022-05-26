@@ -15,7 +15,7 @@ const AboutPage = (props) => {
       <div className="fluid-container">
         <div
           className="about-container p-3 d-flex justify-content-center"
-          style={{ background: "#611144" }}
+          style={{ background: "#9BCE1A" }}
         >
           <div className="about-info w-75 text-white">
             <p className="py-2">
