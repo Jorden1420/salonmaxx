@@ -62,17 +62,31 @@ const HomePage = () => {
                   }}
                 >
                   <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h2 style={{ color: "red", textTransform: "uppercase" }}>
+                    <h2
+                      style={{
+                        color: "red",
+                        textTransform: "uppercase",
+                        fontWeight: "bold",
+                      }}
+                    >
                       Full Service
                     </h2>
                     <h3
-                      style={{ color: "#F03191", textTransform: "uppercase" }}
+                      style={{
+                        color: "#F03191",
+                        textTransform: "uppercase",
+                        fontWeight: "bold",
+                      }}
                     >
                       Maxxed Out Styling
                     </h3>
                     <p
                       className="py-3"
-                      style={{ color: "#F03191", fontSize: "24px" }}
+                      style={{
+                        color: "#F03191",
+                        fontSize: "24px",
+                        fontWeight: "bold",
+                      }}
                     >
                       We provide professional services ranging from hair
                       styling, coloring, nail care, texturing and waxing.

@@ -39,14 +39,14 @@ const ContactPage = (props) => {
                         </span>
                       </a>
                     </div>
-                    <div className="contact-info">
+                    {/* <div className="contact-info">
                       <a href="mailto:test@test.com">
                         <span>
                           <EmailIcon style={{ color: "white" }} />{" "}
                           <span style={{ color: "#fff" }}>test@test.com</span>
                         </span>
                       </a>
-                    </div>
+                    </div> */}
                     <div className="contact-info">
                       <a
                         href="https://www.google.com/maps/dir//38.7084598,-121.3144024/@38.6448267,-121.4406072,12z"
