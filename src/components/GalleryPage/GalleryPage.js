@@ -65,6 +65,10 @@ const itemData = [
     img: "/images/gallery/7.jpg",
     title: "Seven Picture Gallery",
   },
+  {
+    img: "/images/gallery/8.jpg",
+    title: "Eight Picture Gallery",
+  },
 ];
 
 export default GalleryPage;
