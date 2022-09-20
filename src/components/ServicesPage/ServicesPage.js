@@ -38,7 +38,7 @@ const ServicesPage = (props) => {
           <div className="col-lg-3 shadow-sm p-4 m-2">
             <h3>Microblading</h3>
             <p>
-              We microblading services for customers that want the perfect
+              We offer microblading services for customers that want the perfect
               brows. Have a specific request? Ask us anytime.
             </p>
           </div>

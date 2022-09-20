@@ -22,7 +22,7 @@ const VideoPage = (props) => {
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
-            ></iframe>
+            />
           </div>
           {/* <div className="col-lg-6 shadow-sm">
             <video
