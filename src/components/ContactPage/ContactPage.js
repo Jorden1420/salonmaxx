@@ -32,10 +32,10 @@ const ContactPage = (props) => {
                   </p>
                   <div className="contact-info-container mt-3">
                     <div className="contact-info">
-                      <a href="tel:9167250423">
+                      <a href="tel:9167222222">
                         <span>
                           <PhoneIcon style={{ color: "white" }} />{" "}
-                          <span style={{ color: "#fff" }}>(916) 725-0423</span>
+                          <span style={{ color: "#fff" }}>(916) 722-2222</span>
                         </span>
                       </a>
                     </div>
