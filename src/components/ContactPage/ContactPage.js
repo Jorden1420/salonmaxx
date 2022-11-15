@@ -67,8 +67,8 @@ const ContactPage = (props) => {
               <div className="col-lg-3 m-3">
                 <div className="background-change p-3">
                   <h3 style={{ color: "blue" }}>Business Hours</h3>
-                  <p className="pt-2 text-white">Monday - Friday 9AM - 7PM</p>
-                  <p className="pt-2 text-white">Closed Monday and Sunday</p>
+                  <p className="pt-2 text-white">Monday - Saturday 9AM - 6PM</p>
+                  <p className="pt-2 text-white">Sunday Open 10AM - 5PM</p>
                   <div className="social-media-container pt-3">
                     <h3 style={{ color: "blue" }}>Social Media</h3>{" "}
                     <div className="contact-social-media">
