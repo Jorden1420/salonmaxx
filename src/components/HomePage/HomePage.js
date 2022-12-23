@@ -8,6 +8,7 @@ import AboutPage from "../AboutPage/AboutPage";
 import GalleryPage from "../GalleryPage/GalleryPage";
 import VideoPage from "../VideoPage/VideoPage";
 import ContactPage from "../ContactPage/ContactPage";
+import Reviews from "./Reviews";
 
 import { Button } from "react-bootstrap";
 
@@ -117,6 +118,7 @@ const HomePage = () => {
       <AboutPage aboutNode={aboutData} />
       <GalleryPage galleryNode={galleryData} />
       <VideoPage videoNode={videoData} />
+      <Reviews />
       <ContactPage contactNode={contactData} />
       <Footer />
     </div>
